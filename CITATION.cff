@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this analysis code when using the scripts."
+type: software
+authors:
+  - family-names: Wu
+    given-names: Jing-Zhen
+  - family-names: Li
+    given-names: Pan
+  - family-names: Qi
+    given-names: Zi-Meng
+  - family-names: Yang
+    given-names: Xin-Xin
+  - family-names: Yu
+    given-names: Peng
+title: "Analysis code for ecological suitability, future climate responses, and climate-risk zoning of Panax ginseng"
+version: 1.0.0
+date-released: 2026-10-01
+url: "https://github.com/blltdesu/ginseng-ecological-suitability"

@@ -2,6 +2,8 @@
 
 本仓库整理了 *Panax ginseng* 生态适宜性、环境驱动、未来气候情景、预测不确定性和长期种植候选区研究的分析脚本。它是原始工作目录 `E:\人参种在哪` 的**代码快照**，保留了原来的中文目录名和脚本顺序，便于与论文方法和结果核对。
 
+处理后分布记录、对齐预测栅格、模型输出和主要衍生图层见配套的[数据仓库](https://github.com/blltdesu/ginseng-ecological-suitability-data)。本仓库的引用信息见 [`CITATION.cff`](CITATION.cff)。
+
 ## 仓库结构
 
 | 目录 | 内容 |
