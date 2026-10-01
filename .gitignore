@@ -1,0 +1,39 @@
+# Local environments and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Research inputs and generated products
+*.tif
+*.tiff
+*.nc
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+*.topojson
+*.joblib
+*.pkl
+*.pickle
+*.zip
+*.7z
+*.tar
+*.gz
+*.csv
+*.tsv
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.docx
+*.xlsx
+*.log
+*.tmp
+
+# Local tool settings
+.claude/
+.DS_Store

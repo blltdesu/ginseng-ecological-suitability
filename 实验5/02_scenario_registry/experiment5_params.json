@@ -1,0 +1,47 @@
+{
+  "n_available_scenarios": 36,
+  "n_expected_scenarios": 40,
+  "ensemble_threshold": 0.12846759691320192,
+  "gcms": [
+    "ACCESS-CM2",
+    "BCC-CSM2-MR",
+    "MIROC6",
+    "MPI-ESM1-2-HR",
+    "MRI-ESM2-0"
+  ],
+  "ssps": [
+    "ssp126",
+    "ssp245",
+    "ssp370",
+    "ssp585"
+  ],
+  "periods": [
+    "2041-2060",
+    "2061-2080"
+  ],
+  "models": [
+    "random_forest",
+    "xgboost",
+    "brt",
+    "maxent"
+  ],
+  "reference_shape": [
+    4320,
+    8640
+  ],
+  "reference_crs": "EPSG:4326",
+  "reference_transform": [
+    -180.0,
+    0.04,
+    0.0,
+    90.0,
+    0.0,
+    -0.04
+  ],
+  "missing_scenarios": [
+    "ACCESS-CM2_ssp370_2041-2060",
+    "BCC-CSM2-MR_ssp245_2041-2060",
+    "MIROC6_ssp126_2041-2060",
+    "MIROC6_ssp370_2041-2060"
+  ]
+}

@@ -1,0 +1,24 @@
+project_root: "E:/人参种在哪"
+raw_data_dir: "E:/人参种在哪/数据"
+preprocess_dir: "E:/人参种在哪/00_统一数据预处理"
+
+target_species:
+  accepted_name: "Panax ginseng C.A.Mey."
+  genus: "Panax"
+  species_epithet: "ginseng"
+
+crs:
+  target: "EPSG:4326"
+
+occurrence:
+  max_coordinate_uncertainty_m: 10000
+  thinning_distances_km: [5, 10, 20]
+  main_candidate_thinning_km: 10
+
+soil:
+  target_depth_cm: [0, 15]
+
+logging:
+  level: "INFO"
+
+random_seed: 20260807

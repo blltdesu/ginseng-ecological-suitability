@@ -1,0 +1,51 @@
+project_root: "E:/人参种在哪"
+experiment_root: "E:/人参种在哪/实验1"
+input_dir: "E:/人参种在哪/实验1/01_input"
+next_experiment_dir: "E:/人参种在哪/实验2"
+handoff_source: "E:/人参种在哪/00_统一数据预处理/14_handoff/to_experiment_1"
+
+random_seed: 20260807
+
+occurrence:
+  main_thinning_km: 10
+  sensitivity_thinning_km: [5, 20]
+
+accessible_area:
+  main_buffer_km: 300
+  sensitivity_buffer_km: [200, 500]
+
+background:
+  n_points: 10000
+  n_repeats: 5
+  min_distance_from_presence_km: 10
+
+predictor_screening:
+  correlation_method: "spearman"
+  correlation_threshold: 0.70
+  vif_threshold: 5
+  raster_sample_size: 50000
+
+spatial_cv:
+  n_outer_folds: 5
+  n_inner_folds: 4
+  candidate_block_sizes_km: [100, 150, 200, 250]
+
+modeling:
+  models:
+    - maxent
+    - random_forest
+    - xgboost
+    - gam
+    - brt
+
+ensemble:
+  auc_min: 0.70
+  tss_min: 0.50
+  boyce_min: 0.50
+
+prediction:
+  batch_pixels: 200000
+
+figures:
+  dpi_png: 600
+  save_pdf: true
